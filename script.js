@@ -1,4 +1,4 @@
-$('.nav a[href^="#"]').on('click', function(e) {
+$('.menu a[href^="#"]').on('click', function(e) {
 	e.preventDefault();
 	var id = $(this).attr('href'),
 			targetOffset = $(id).offset().top;
