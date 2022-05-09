@@ -1,0 +1,273 @@
+body {
+    background: linear-gradient(90deg,#EA5753 0%, #F96E46 100%);  
+}
+
+/*DEU CERTO ESSE*/
+
+nav ul {
+    position:fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(90deg,#EA5753 0%, #F96E46 100%); 
+}
+
+nav li {
+    float: right;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 24px;
+    display: block;
+    padding: 14px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+    
+}
+
+.menu li:hover {
+    background-color: #fff;
+}
+
+.menu a:hover {
+    color: #F96E46;
+}
+
+#texto h1 {
+    position: absolute;
+    font-family: 'BioRhyme', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    text-align: center;
+    color: #FFFFFF;
+    top: 35%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#texto p {
+    position: relative;
+    height: 59px;
+    top: 450px;
+    font-family: 'Montserrat Alternates',sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    color: #fff
+}
+
+#sobre {
+    position: relative;
+    display: block;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 650px;
+}
+
+#sobre h2 {
+    font-family: 'BioRhyme';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 99px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#txtsobre {
+    width: 664px;
+    height: 310px;
+    background-color: #fff;
+    display: block;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 24px;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+}
+
+.imagens {
+    top: 120%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.imagens2 {
+    top: 120%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.skills h3 {
+    font-family: 'BioRhyme';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 99px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.skills img {
+    max-width: 100%;
+    display: block;
+    padding: 40px;
+}
+
+.imagens, .imagens2 {
+    flex: 1 1 200px;
+}
+
+#figma {
+    width: 65px;
+    height: 86px;
+}
+
+#git {
+    width: 92px;
+    height: 92px;
+}
+
+#html, #css {
+    width: 74px;
+    height: 100px;
+
+}
+
+#js {
+    width: 91px;
+    height: 104px;
+}
+
+#ruby {
+    width: 82px;
+    height: 82px;
+}
+
+#rails {
+    width: 126px;
+    height: 126px;
+}
+
+body {
+    background-color: #cccc
+    ;
+}
+
+#projetos {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+
+#projetos h2 {
+    font-family: 'BioRhyme';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 99px;
+    text-align: center;
+    color: #EA5753;
+}
+
+#projetos h3 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 59px;
+    text-align: center;
+    color: #F96E46;
+}
+
+#projetos img {
+    width: 484px;
+    height: 330px;
+    display: block;
+    left: 0;
+    right: 0;
+    margin: 36px auto;
+    flex: 1 1 200px;
+    filter: drop-shadow(16px 16px 0px #F96E46);
+    
+}
+
+#projetos a {
+    display: block;
+    background-color: #EA5753;    
+    left: 0;
+    right: 0;
+    margin: 16px auto;
+    padding: 8px 24px;
+    border-radius: 10px;
+    width: 142px;
+    height: 29px;
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#projetos a:hover {
+    background-color: #F96E46;
+}
+
+#contato {
+    display: block;
+    margin: 0 auto;
+    
+}
+
+#contato div {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#contato img {
+    width: 75px;
+    height: 75px;
+    padding: 36px;
+    flex: 1 1 75px;
+    margin: 10px;
+
+
+}
+
+
+
+
+#contato p, a {
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 16px;
+}
